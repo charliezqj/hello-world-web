@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
     @RequestMapping("/home")
     public String home(Model model){
-        model.addAttribute("message", "Hello 小桌!");
+        model.addAttribute("message", "Hello Charlie!");
         // return "WEB-INF/views/home.jsp";
         return "home";
     }
